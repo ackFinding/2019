@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/simple-servlet/simple-servlet.iml" filepath="$PROJECT_DIR$/simple-servlet/simple-servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simple-tomcat/simple-tomcat.iml" filepath="$PROJECT_DIR$/simple-tomcat/simple-tomcat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simple-web-server/simple-web-server.iml" filepath="$PROJECT_DIR$/simple-web-server/simple-web-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tinytomcat.iml" filepath="$PROJECT_DIR$/tinytomcat.iml" />
+    </modules>
+  </component>
+</project>
