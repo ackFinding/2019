@@ -14,3 +14,7 @@ Springboot搭建，将微信公众号接入图灵机器人，实现简单的文�
 https://github.com/ackFinding/2019/tree/master/chat-robot
 #### 注意
 需要自行修改代码中的apikey和userid
+****
+### distributed
+#### 简介
+redis和zookeeper实现分布式锁demo
