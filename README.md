@@ -18,3 +18,7 @@ https://github.com/ackFinding/2019/tree/master/chat-robot
 ### distributed
 #### 简介
 redis和zookeeper实现分布式锁demo
+****
+### seckill-basic
+#### 简介
+Springboot搭建的基础的秒杀项目。只实现了基础的业务逻辑，包括用户登陆注册、商品信息、订单信息、商品库存、秒杀活动信息。
