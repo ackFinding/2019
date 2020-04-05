@@ -38,6 +38,7 @@ public class SecKillDemo implements Runnable {
                 if (res.size() == 0) {
                     System.out.println(customerName + " 抢购失败");
                     success = false;
+                    jedis.watch(key);
                 } else {
                     success = true;
                     System.out.println(customerName + " 抢购成功,[" + key + "]剩余：" + currentNum);
