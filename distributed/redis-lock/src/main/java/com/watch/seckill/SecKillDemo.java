@@ -20,12 +20,12 @@ public class SecKillDemo implements Runnable {
 
     @Override
     public void run() {
-        //通过watch实现redis的incr(原子递增操作)
-        jedis.watch(key);
         boolean success = false;
         String data;
         int currentNum;
         while (!success) {//可重复抢购直到成功
+            //通过watch实现redis的incr(原子递增操作)
+            jedis.watch(key);
             data = jedis.get(key);
             currentNum = Integer.parseInt(data);
             if (currentNum > 0) {
